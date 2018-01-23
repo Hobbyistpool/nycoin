@@ -1144,7 +1144,14 @@ void MapPort()
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
        // default hypernode dns seed , change later when network grows
-       {"107.155.190.222", "107.155.190.222"}
+       {"24.190.179.138", "24.190.179.138"},
+       {"69.118.35.147", "69.118.35.147"},
+       {"5.101.122.184", "5.101.122.184"},
+       {"107.155.190.222", "107.155.190.222"},
+       {"24.141.187.231", "24.141.187.231"},
+       {"50.82.94.170", "50.82.94.170"},
+       {"82.33.54.166", "82.33.54.166"},
+       {"118.208.191.227", "118.208.191.227"}
 };
 
 void ThreadDNSAddressSeed(void* parg)
